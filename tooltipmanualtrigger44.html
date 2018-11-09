@@ -1,0 +1,50 @@
+<html long="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comptiable" content="IO-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootfiles/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="bootfiles/bootstrap.css" rel="stylesheet">
+	<style>
+	
+	
+	
+	</style>
+
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<br/>
+	<br/>
+		Name:<input type="text" id="txtname" title="Bootstrap tooltip" data-toggle="tooltip">
+		<span class="glyphicon glyphicon-info-sign" id="infoicon"></span>
+		
+		</div>
+		</div>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
+		 <script type="text/javascript">
+		$(document).ready( function(){
+			
+			
+			$('#txtname').tooltip({
+				trigger:'manual'
+				
+				
+				
+				
+			});  
+			
+			$('#infoicon').hover(function(){
+				$('#txtname').tooltip('toggle');
+									 
+									 	});
+									 
+									 });
+		
+		</script>
+
+</body>
+</html>
